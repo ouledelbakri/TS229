@@ -34,24 +34,3 @@ où `<user>` et `<repo>` sont vos login et le nom de votre dépôt Git (cf. votr
 ssh ssh.enseirb-matmeca.fr /net/ens/renault/local/bin/init-gitconfig.sh > ~/.gitconfig
 ```
 
-### Ce qui doit être fait lors à chaque séance
-
-**Pousser** votre travail sur le serveur distant au **minimum à la fin de chaque séance** 
-
-``` 
-git push origin master
-```
-
-Chaque commit devra **impérativement** comporter un message informatif (git commit). Voir [ce tutoriel](https://chris.beams.io/posts/git-commit/) pour un guide de bonnes pratiques concernant les commits.
-
-### Aide pour Git
-Si vous n'êtes pas à l'aise avec l'utilisation de Git, il est **impératif** de suivre le tutoriel [suivant](http://www.labri.fr/perso/renault/working/teaching/projets/git.php).
-
-## Date butoir et rendu
-Pour le rendu, utiliser l'interface **Devoirs/Assignments** de vos comptes sur Thor. Vous devez rendre, pour ce TP : 
-
-* un rapport dans un fichier nommé : rapport_ts229_2223.pdf
-
-* vos codes compressés dans une archive nommée : archive_ts229_2223.tar.gz
-
-**Vos codes et rapports doivent être rendus avant le 25 octobre 2021.**
